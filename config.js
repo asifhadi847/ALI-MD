@@ -62,6 +62,9 @@ MODE: process.env.MODE || "public",
 DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
 ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "true",
+ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
