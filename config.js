@@ -41,7 +41,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // maks true for always online 
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 //maks anticall true, false for calls
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*", 
 // add anticall message 
@@ -61,10 +61,11 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
-ANTI_LINK: process.env.ANTI_LINK || "true",
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
-ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "true",
-ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+// make anti link true,false for groups 
+ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "false",
+// make anti link true,false for groups 
+ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
