@@ -25,8 +25,6 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
-// automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALI",
@@ -59,8 +57,6 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-DELETE_LINK: process.env.DELETE_LINK || "true",
-// make anti link true,false for groups 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "false",

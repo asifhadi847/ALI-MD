@@ -100,14 +100,14 @@
       "value": "https://files.catbox.moe/6ku0eo.jpg" 
       },
 
-    "DELETE_LINK": {
-      "description": "Make it true if you want bot auto delete group link.",
+    "ANTI_LINK_WARN": {
+      "description": "Make it true if you use one antilink warn - kick.",
       "required": false,
       "value": "false"
     }, 
     
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto wearing group link.",
+    "ANTI_LINK_KICK": {
+      "description": "Make it true if you use one antilink warn - kick.",
       "required": true,
       "value": "false"
     }, 
